@@ -1,0 +1,123 @@
+.title {
+    color: blue;
+    text-align: center;
+}
+
+table,
+.form {
+    max-width: 50%;
+    margin: auto;
+}
+
+.background_table {
+    background-color: lightyellow;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_inicio {
+    background-color: lightblue;
+    border-color: transparent;
+    align-items: center;
+}
+
+.btn_inicio a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn_logout  button {
+    background-color:lightblue;
+    border-color: transparent;
+    display: flex;
+    align-items: flex-end;
+   }
+
+.center_button {
+    text-align: center;
+}
+
+.right{
+    margin-left: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleLogin{
+    color: blue;
+    text-align: left;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.centrar_form {
+    margin-left: 25%
+}
+
+#id,
+#text,
+#nombre,
+#apellido,
+#avatar,
+#edad,
+#avatar,
+#alias {
+    background-color: lightyellow;
+}
+
+.tamaño {
+    width: 40px;
+}
+
+.mail {
+    color: blue;
+    font-weight: bold;
+}
+
+.date {
+    color: brown;
+    font-weight: normal;
+}
+
+.mensaje {
+    color: green;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.avatar {
+    width: 50px;
+}
+
+.spinner {
+    display: none;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    right: 10vw;
+    bottom: 30vh;
+    background-color:  lightblue;
+    opacity:80%;
+    z-index: 9999;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
